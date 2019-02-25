@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+import WelcomeMessage from './WelcomeMessage';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Welcome to CryptosList
-          </p>
-        </header>
-      </div>
+      <WelcomeMessage />
     );
   }
 }
